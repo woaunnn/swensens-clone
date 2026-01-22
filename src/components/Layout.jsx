@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { Layout } from 'antd';
-import { Outlet } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
+import styled from "styled-components";
+import { Layout } from "antd";
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const { Content } = Layout;
 

@@ -17,7 +17,6 @@ const banners = [
     url: "https://www.swensens1112.com/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fswensens-production.appspot.com%2Fo%2Fbanner%252Fsw-banner.jpg%3Falt%3Dmedia&w=1080&q=75",
     alt: "hero-banner-3",
   },
-  // Add more banners as needed
 ];
 
 const HeroBanner = () => {

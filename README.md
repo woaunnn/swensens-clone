@@ -1,16 +1,50 @@
-# React + Vite
+# Swensen's Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requirements
 
-Currently, two official plugins are available:
+- Node.js v20.x or higher
+- MongoDB Atlas account
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Environment Variables
 
-## React Compiler
+Create a `.env` file in the root directory:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```env
+# MongoDB
+MONGO_URL=mongodb+srv://swensens:swensens123@swensens-db.4gp2qzc.mongodb.net/swensens?appName=swensens-db
 
-## Expanding the ESLint configuration
+# JWT Secret
+JWT_SECRET=your-secret-key-here
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Server Port
+PORT=4000
+```
+
+Create a `.env` file in the root directory for frontend:
+
+```env
+# API URL
+VITE_API_URL=http://localhost:4000/api
+
+# Swensen's Assets URL (optional)
+VITE_SWENSENS_URL=https://www.swensens1112.com
+```
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run Development
+
+```bash
+# Run frontend (Vite)
+npm run dev
+
+# Run backend (Express + MongoDB)
+npm run server
+```
+
+Frontend: http://localhost:5173  
+Backend: http://localhost:4000

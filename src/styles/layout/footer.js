@@ -96,9 +96,7 @@ export const AppStoreButton = styled.a`
 export const Copyright = styled.div`
   text-align: center;
   color: white;
-  ${applyTypography(typography.body.sm.regular)}
-
-  /* @media (min-width: 768px) {
+  ${applyTypography(typography.body.sm.regular)}/* @media (min-width: 768px) {
     margin-top: 40px;
   } */
 `;

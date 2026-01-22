@@ -51,15 +51,6 @@ const Footer = () => {
     <StyledFooter>
       <FooterContent>
         <Row gutter={[24, 32]} justify="center">
-          {/* Logo */}
-          {/* <Col xs={24} style={{ textAlign: "center" }}>
-            <Logo
-              src="https://www.swensens1112.com/images/desktop-header-logo.svg"
-              alt="Swensen's Logo"
-            />
-          </Col> */}
-
-          {/* Footer Links */}
           <Col xs={24}>
             <Row justify="center" gutter={[8, 16]}>
               <Col
