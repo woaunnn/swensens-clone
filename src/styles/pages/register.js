@@ -169,7 +169,7 @@ export const StyledDatePicker = styled(DatePicker)`
 
   .ant-picker-input > input {
     ${applyTypography(typography.body.md.regular)}
-    
+
     &::placeholder {
       color: #667085;
     }

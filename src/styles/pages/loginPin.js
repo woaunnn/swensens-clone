@@ -85,7 +85,7 @@ export const ForgotPinLink = styled.button`
   text-decoration: underline;
   margin: 0 auto;
   padding: 8px 12px;
-  
+
   &:hover {
     background: rgba(0, 0, 0, 0.04);
   }

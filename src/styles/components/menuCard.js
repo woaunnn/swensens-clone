@@ -101,7 +101,9 @@ export const HoverOverlay = styled.div`
   );
   opacity: 0;
   transform: translateY(100%);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
   pointer-events: none;
   border-radius: 16px;
 
@@ -125,7 +127,7 @@ export const SizeDropdown = styled(Select)`
   border: 1px solid #df001f !important;
   color: #df001f;
   ${applyTypography(typography.body.md.bold)}
-  
+
   &:focus,
   &:focus-within {
     pointer-events: auto;
