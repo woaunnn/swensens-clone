@@ -48,3 +48,17 @@ npm run server
 
 Frontend: http://localhost:5173  
 Backend: http://localhost:4000
+
+## Admin Account
+
+For testing admin features:
+
+**Login with Phone:**
+
+- Phone: 099-999-9999
+- PIN: 999999
+
+**Login with Email:**
+
+- Email: admin@gmail.com
+- Password: 999999
